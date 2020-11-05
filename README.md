@@ -20,3 +20,6 @@ switch branch
 
 git branch -d {name of branch}
 delete branch
+
+git reset {name of file}
+reset file back to last saved change on repo
