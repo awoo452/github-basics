@@ -12,4 +12,10 @@ git push {origin} {master}
 orgin - Location of local github repo
 master - 
 
+git checkout -b {name of new branch}
+create new branch
+
+git checkout {name of branch}
+switch branch
+
 
