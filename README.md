@@ -15,8 +15,14 @@ master -
 git checkout -b {name of new branch}
 create new branch
 
+modify the branch
+
+push the branch
+
 git checkout {name of branch}
 switch branch
+
+pull the branch
 
 git branch -d {name of branch}
 delete branch
