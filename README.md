@@ -18,6 +18,7 @@ create new branch
 git checkout {name of branch}
 switch branch
 
+git pull origin {name of branch}
 pull the branch
 
 git branch -d {name of branch}
@@ -30,9 +31,9 @@ git reset --hard {commit #}
 reset file back to whichever commit selected
 
 
-* create new branch
+* create new branch (git checkout -b {new branch})
 * modify branch
-* commit branch with message
-* push branch
-* checkout to main
-* pull branch
+* commit branch with message (git commit -am "{message here}")
+* push branch (git push)
+* checkout to master / main (git checkout {master / main})
+* pull branch (git pull origin {new branch})
