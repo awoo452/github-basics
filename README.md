@@ -15,10 +15,6 @@ master -
 git checkout -b {name of new branch}
 create new branch
 
-modify the branch
-
-push the branch
-
 git checkout {name of branch}
 switch branch
 
@@ -28,4 +24,15 @@ git branch -d {name of branch}
 delete branch
 
 git reset {name of file}
-reset file back to last saved change on repo
+reset file back to last commit
+
+git reset --hard {commit #}
+reset file back to whichever commit selected
+
+
+* create new branch
+* modify branch
+* commit branch with message
+* push branch
+* checkout to main
+* pull branch
