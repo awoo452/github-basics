@@ -18,4 +18,5 @@ create new branch
 git checkout {name of branch}
 switch branch
 
-
+git branch -d {name of branch}
+delete branch
